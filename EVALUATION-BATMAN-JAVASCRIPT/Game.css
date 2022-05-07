@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(./Batgame1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 5rem;
+}
+header nav.barre-contenue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.barre-contenue a{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    font-size: 25px;
+}
+nav.barre-contenue a:hover{
+    text-decoration: underline;
+}
+
+div.partie-1 h1{
+    color: #fff;
+    text-align: justify;
+}
+div.partie-1 {
+    padding-top: 20%;
+    font-size: 25px;
+}
+div.partie-vertical-droite{
+    text-align: right;
+}
+
+/* main ! */
+main {
+    background-color: black;
+}
+main p,h4{
+    color: #fff;
+}
+div#direction-bas {
+    text-align: center;
+}
+div.Question h4{
+    border: 1px;
+    margin: 10px;
+    margin-right: 60%;
+    margin-left: 10%;
+    padding: 5px;
+    background-color: rgba(250, 250, 250, 0.712);
+}
+div.Question p{
+    padding: 20px;
+    margin-left: 8%;
+}
+
+section#quiz-2 {
+    background-color: black;
+    text-align: center;
+}
+section#quiz-2 div.batmangame h2{
+    color: #fff;
+    text-align: left;
+    padding-bottom: 50px;
+}
+div.batmangame {
+    padding: 10%;
+}
+section#quiz-2 button{
+    padding: 20px 100px;
+    background-color: rgba(238, 71, 71, 0.979);
+    border: none;
+}
+section#quiz-2 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* footer ! */
+footer {
+    background-color: black;
+    padding: 10rem 0rem 10rem 0rem;
+    align-items: center;
+
+}
+footer p{
+    color: #fff;
+}
+footer div.txt-bas{
+    text-align: center;
+}
+footer div.mini-logo {
+    align-items: center;
+    text-align: center;
+}
+div.mini-logo img {
+    margin: 10px;
+    padding-top: 40px;
+}
